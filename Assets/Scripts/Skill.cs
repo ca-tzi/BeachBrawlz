@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class Skill : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  public string skillName;
+  public string skillDescription;
+  public int atkValue;
+  public int accValue;
 }
